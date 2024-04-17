@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/3Dscatter_plot_mod_playground-binder/master?urlpath=%2Flab%2Ftree%2Findex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/3Dscatter_plot_mod_playground-binder/main?urlpath=%2Flab%2Ftree%2Findex.ipynb)
 
 # 3Dscatter_plot_mod_playground-binder
 Playground to test 3D scatter plot examples in modern JupyterLab and Jupyter Notebook via Binder
