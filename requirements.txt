@@ -1,0 +1,7 @@
+jupyterlab>=4.1.5
+notebook>=7.1.0
+seaborn
+scipy
+pandas
+nbgitpuller
+ipympl
