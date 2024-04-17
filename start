@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# clone the content from and place correctly in session
+git clone https://github.com/fomightez/3Dscatter_plot-binder
+rm 3Dscatter_plot-binder/requirements.txt
+cp 3Dscatter_plot-binder/index.ipynb .
+cp 3Dscatter_plot-binder/Getting_Circos_Up_and_Running.ipynb .
+mv cbr-accompmatz/notebooks .
+rm -rf 3Dscatter_plot-binder
+
+
+# clean up / declutter a bit ;
+# this will make it easier to see the files
+rm -rf 3Dscatter_plot-binder
+rm README.md
+rm -rf details_on_versions_noted_when_all_working
+
+
+# this must be last line according to 
+# https://repo2docker.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+exec "$@"
