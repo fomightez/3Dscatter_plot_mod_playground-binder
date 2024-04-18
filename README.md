@@ -10,7 +10,7 @@ Currently, other than the text stating things, [3Dscatter_plot-binder](https://g
 
 ------
 
-Only interface-specific issues found so far:
+##### Only interface-specific issues found so far:
 
 - You have to keep in mind you are in modern JupyterLab or Jupyter Notebook 7+ yourself, despite the text of the current content acting like you should be in old Jupyter Notebook, i.e., NbClassic by default. And so use the approaches I state will work in JupyterLab or Jupyter Notebook 7+, such as `%matplotlib ipympl`
 
