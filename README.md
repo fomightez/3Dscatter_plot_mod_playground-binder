@@ -14,8 +14,8 @@ Currently, other than the text stating things, [3Dscatter_plot-binder](https://g
 
 - You have to keep in mind you are in modern JupyterLab or Jupyter Notebook 7+ yourself, despite the text of the current content acting like you should be in old Jupyter Notebook, i.e., NbClassic by default. And so use the approaches I state will work in JupyterLab or Jupyter Notebook 7+, such as `%matplotlib ipympl`
 
-- The link to the Voila 'streamlined 3D scatter plot in Voila interface' on the Index page that comes up, **won't work**. (That only seems to work in the classic interface for now.) 
-	Alternatives that will work:
+- The link to the Voila 'streamlined 3D scatter plot in Voila interface' on the Index page that comes up, **won't work**. (That only seems to work in the classic interface for now.)   
+	Alternatives that will work:  
 	In JupyterLab, double-click on the `3D_scatter_Voila_matplotlibSTREAMLINED.ipynb` in the navigation panel to open it. Then after the notebook opens, click on the Voila icon (yellow squigly-over a green line) along the middle of the top toolbar above the running notebook to open it in the Voila rendering. (The Voila icon may appear more towards the right side of the toolbar depending on how large of a windw you have open.)    
 	In Jupyter Notebook 7+, click on the Jupyter icon in the upper left side to get to the Jupyter Dashboard. There, double-click on the `3D_scatter_Voila_matplotlibSTREAMLINED.ipynb` in the listing of files. It will open. Then click on the Voila icon (yellow squigly-over a green line) along the top toolbar in the upper left to open it in the Voila rendering.  
 
