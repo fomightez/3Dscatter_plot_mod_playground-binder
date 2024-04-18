@@ -3,9 +3,8 @@
 # clone the content from and place correctly in session
 git clone https://github.com/fomightez/3Dscatter_plot-binder
 rm 3Dscatter_plot-binder/requirements.txt
-cp 3Dscatter_plot-binder/index.ipynb .
-cp 3Dscatter_plot-binder/Getting_Circos_Up_and_Running.ipynb .
-mv cbr-accompmatz/notebooks .
+cp 3Dscatter_plot-binder/*.ipynb .
+cp 3Dscatter_plot-binder/*.tsv .
 rm -rf 3Dscatter_plot-binder
 
 
