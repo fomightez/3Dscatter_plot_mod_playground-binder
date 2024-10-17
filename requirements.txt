@@ -20,4 +20,6 @@ cufflinks
 voila
 ipywidgets
 ipympl
+ipysigma
+networkx
 nbgitpuller
