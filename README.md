@@ -19,6 +19,10 @@ Currently, other than the text stating things, [3Dscatter_plot-binder](https://g
 	In JupyterLab, double-click on the `3D_scatter_Voila_matplotlibSTREAMLINED.ipynb` in the navigation panel to open it. Then after the notebook opens, click on the Voila icon (yellow squigly-over a green line) along the middle of the top toolbar above the running notebook to open it in the Voila rendering. (The Voila icon may appear more towards the right side of the toolbar depending on how large of a windw you have open.)    
 	In Jupyter Notebook 7+, click on the Jupyter icon in the upper left side to get to the Jupyter Dashboard. There, double-click on the `3D_scatter_Voila_matplotlibSTREAMLINED.ipynb` in the listing of files. It will open. Then click on the Voila icon (yellow squigly-over a green line) along the top toolbar in the upper left to open it in the Voila rendering.  
 
+##### Concerning 'ipysigma and networkx' here:
+- I added ipysigma and networkx when looking into [this SO post](https://stackoverflow.com/q/79098579/8508004), yet was unsuccesful at this point getting it working here, see next bullet point for alternative.
+- WORKING OPTION: If you need to use ipysigma and networkx, go [here](https://github.com/fomightez/network-visualisation) and launch a session from there. Unfortunately, it isn't JupyterLab, but works.
+
 ------
 
 
